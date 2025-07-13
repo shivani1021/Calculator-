@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Winky Rough', sans-serif;
+
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg,#2f2e2e,#566a85) ;
+}
+
+.calculator{
+border: 1px solid #4f5259;
+padding: 20px;
+border-radius: 16px;
+background: #050505;
+box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+
+}
+
+input{
+    width: 320px;
+    border: 90px;
+    padding: 23px;
+    margin: 10px;
+    background:#8ecc7f ;
+    box-shadow: 0px 3px 15px rgbs(84, 84,84,0.1);
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    color:#d7c8c8 ;
+    border-color: #e9e0e0;
+}
+
+input::placeholder{
+    color: #161616;
+}
+
+button{
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    background:#111010 ;
+    color: #ede5e5;
+    font-size: 20px;
+    box-shadow: -9px -9px 10px rgba(255,255,255,0.1);
+    cursor: pointer;
+}
+
+.equal8tn{
+    background-color:#8d1970 ;
+    font-size: x-large;
+    color: #ffffff;
+}
+
+.operator{
+    color: #f35757;
+    background-color: #4b4949;
+    font-size: x-large;
+}
+.clear{
+    background-color: rgb(104, 107, 90);
+    color: #35e849;
+}
